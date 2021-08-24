@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Logan Epps Portfolio</title>
+    <!-- Begin Favicon links -->
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+    <link rel="manifest" href="favicon/site.webmanifest">
+    <!-- End Favicon links -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Update these with your own fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Source+Serif+Pro:wght@400;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <a href="/">
+                <img src="./img/logo.png" alt="logans portfolio logo">
+            </a>
+        </div>
+        <button class="nav-toggle" aria-label="toggle navigation">
+            <span class="hamburger"></span>
+        </button>
+        <nav class="nav">
+            <ul class="nav__list">
+                <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
+                <li class="nav__item"><a href="#about" class="nav__link">About Me</a></li>
+                <li class="nav__item"><a href="#work" class="nav__link">My Work</a></li>
+                <li class="nav__item"><a href="mailto:logepps@gmail.com" class="nav__link">Contact Me</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Introduction -->
+    <section class="intro" id="home">
+        <h1 class="section__title section__title--intro">
+            Hi, I'm <strong>Logan Epps</strong>
+        </h1>
+        <p class="section__subtitle section__subtitle--intro">Welcome to my portfolio</p>
+        <img src="./img/me.png" alt="A photo of Logan" class="intro__img">
+    </section>
+
+    <!-- My Services -->
+    <!-- <section class="my-services" id="services">
+        <h2 class="section__title section__title--services">About Me</h2>
+        <div class="services">
+            <div class="service">
+                <p>Thing One</p>
+            </div>
+            <div class="service">
+                <p>Thing Two</p>
+            </div>
+        </div> -->
+        <!-- / services -->
+
+        <!-- <a href="#work" class="btn">My Work</a>
+    </section> -->
+
+    <!-- About Me -->
+
+    <div class="about-me__container">
+        <section class="about-section" id="about">
+            <h2 class="section__title section__title--about">About Me</h2>
+            <p class="section__subtitle section__subtitle--about">A web developer, drummer and sometimes artist</p>
+
+                <div class="about-me__body">
+                    <p>
+                        I'm a web developer and drummer based in St. Louis, Missouri. 
+                        I have a background in art and an interest in UI design, as well as design in general. 
+                        I am more drawn to and fluent in the front-end, but am familiar with and enjoy working with some back-end also.
+                        I love creating cool web experiences and building nice-looking things that perform well and function smoothly.
+                    </p>
+                </div>
+        </section>
+    </div>
+    
+    <!-- My Work -->
+    <section class="my-work" id="work">
+        <h2 class="section__title">My Work</h2>
+        <p class="section__subtitle section__subtitle--work">A selection of projects I've completed</p>
+
+        <div class="portfolio">
+            <!-- Portfolio Item 01 -->
+            <a href="https://stormy-cliffs-20719.herokuapp.com" class="portfolio__item" target="_blank">
+                <img src="img/portfolio-01.jpg" alt="" class="portfolio__img">
+            </a>
+
+            <!-- Portfolio Item 02 -->
+            <a href="/tvshow-search" class="portfolio__item" target="_blank">
+                <img src="img/portfolio-02.jpg" alt="" class="portfolio__img">
+            </a>
+
+            <!-- Portfolio Item 03 -->
+            <a href="/ScoreKeeper" class="portfolio__item" target="_blank">
+                <img src="img/portfolio-03.jpg" alt="" class="portfolio__img">
+            </a>
+
+            <!-- Portfolio Item 04 -->
+            <a href="https://secret-ridge-05640.herokuapp.com" class="portfolio__item" target="_blank">
+                <img src="img/portfolio-04.jpg" alt="" class="portfolio__img">
+            </a>
+
+            <!-- Portfolio Item 05 -->
+            <a href="/circlesounds" class="portfolio__item" target="_blank">
+                <img src="img/portfolio-05.jpg" alt="" class="portfolio__img">
+            </a>
+
+            <!-- Portfolio Item 06 -->
+            <a href="/to-do" class="portfolio__item" target="_blank">
+                <img src="img/portfolio-06.jpg" alt="" class="portfolio__img">
+            </a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <a href="#" class="footer__link" id="backTop">
+                Back to Top <i class="fas fa-arrow-up"></i>
+        </a>
+
+        <ul class="social-list">
+            <li class="social-list__item">
+                <a class="social-list__link" href="https://github.com/loganepps">
+                    <i class="fab fa-github"></i>
+                </a>
+            </li>
+            <li class="social-list__item">
+                <a class="social-list__link" href="https://www.linkedin.com/in/loganepps/">
+                    <i class="fab fa-linkedin"></i>
+                </a>
+            </li>
+            <li class="social-list__item">
+                <a class="social-list__link" href="https://www.instagram.com/loganinspace/">
+                    <i class="fab fa-instagram"></i>
+                </a>
+            </li>
+            <li class="social-list__item">
+                <a class="social-list__link" href="mailto:logepps@gmail.com">
+                    <i class="far fa-envelope"></i>
+                </a>
+            </li>
+        </ul>
+
+    </footer>
+
+    <script src="js/index.js"></script>
+    
+</body>
+</html>
