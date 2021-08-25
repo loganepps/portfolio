@@ -271,7 +271,7 @@ header {
 .intro__img {
     /* box-shadow: var(--bs); */
     border-width: 60px;
-    filter: blur(.35px) sepia(50%) saturate(80%) hue-rotate(200deg) drop-shadow(4px 4px 4px rgba(0, 0, 0, 0.4));
+    filter: blur(.20px) sepia(50%) saturate(80%) hue-rotate(200deg) drop-shadow(4px 4px 4px rgba(0, 0, 0, 0.4));
 }
 
 .section__subtitle--intro {
