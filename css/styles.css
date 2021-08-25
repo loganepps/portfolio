@@ -14,7 +14,7 @@
 
     --clr-light: #F4F7F5;
     /* --clr-light: #F0F4EF; */
-    --clr-accent: #907AD6dd;
+    --clr-accent: #907AD6ee;
     /* --clr-accent: #659157; */
     --clr-medium: #190E4Fee;
     /* --clr-dark: #121619; */
@@ -122,7 +122,7 @@ h3 {
 }
 
 .section__title {
-    margin-bottom: .5em;
+    margin-bottom: .75em;
 }
 
 .section__title--intro {
@@ -148,7 +148,7 @@ h3 {
     /* text-shadow: .010em .010em .15em var(--clr-medium); */
     padding: .25em .75em;
     font-family: var(--ff-secondary);
-    margin-bottom: 2.5em;
+    margin-bottom: 1.5em;
 }
 
 /* Header */
@@ -271,7 +271,7 @@ header {
 .intro__img {
     /* box-shadow: var(--bs); */
     border-width: 60px;
-    filter: blur(.35px) drop-shadow(4px 4px 4px rgba(0, 0, 0, 0.4));
+    filter: blur(.35px) sepia(50%) saturate(80%) hue-rotate(200deg) drop-shadow(4px 4px 4px rgba(0, 0, 0, 0.4));
 }
 
 .section__subtitle--intro {
@@ -299,6 +299,10 @@ header {
         min-width: 250px;
         position: relative;
         z-index: 2;
+    }
+
+    .section__title--intro {
+        margin-bottom: 0;
     }
 
     .section__subtitle--intro {
@@ -329,9 +333,9 @@ header {
     text-align: center;
 }
 
-#more-about {
+/* #more-about {
     display: none;
-}
+} */
 
 /* My work */
 
@@ -377,7 +381,7 @@ header {
     background: var(--clr-dark);
     color: var(--clr-accent);
     text-align: center;
-    padding: 2.5em 0;
+    padding: 2.5em 0 3.5em;
     font-size: var(--fs-h3);
 }
 
@@ -399,7 +403,7 @@ header {
     list-style: none;
     display: flex;
     justify-content: center;
-    margin: 2em 0 0;
+    margin: .25em 0 2.5em;
     padding: 0;
 }
 
