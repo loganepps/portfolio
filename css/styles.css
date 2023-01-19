@@ -46,9 +46,9 @@ html {
 
 body {
     background: var(--clr-light);
-    /* background-image:
-        linear-gradient(to bottom, var(--clr-light), var(--clr-dark)); */
-    color: var(--clr-medium);
+    background-image:
+        linear-gradient(to bottom, var(--clr-light), var(--clr-dark));
+    /* color: var(--clr-medium); */
     margin: 0;
     font-family: var(--ff-body);
     font-size: var(--fs-body);
